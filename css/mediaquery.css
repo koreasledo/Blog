@@ -1,0 +1,519 @@
+/* ##Device = Desktops */
+@media (min-width: 1281px) {
+  html, body {
+    font-size: 16px;
+  }
+  #sec3Box2 {
+    width: 1400px;
+  }
+}
+
+/* ##Device = Laptops, Desktops */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  html, body {
+    font-size: 16px;
+  }
+  body .wrapBody .section3 .sec3Box1 .sec3PhotoBox0 .sec3Ment {
+    font-size: 3rem;
+  }
+  body .wrapBody .section3 .sec3Box1 .sec3PhotoBox1 .sec3Ment {
+    font-size: 3rem;
+  }
+  body .wrapBody .section3 .sec3Box2 .sec3PhotoBox2 .sec3Ment {
+    font-size: 3rem;
+  }
+  body .wrapBody .section3 .sec3Box2 .sec3PhotoBox3 .sec3Ment {
+    font-size: 3rem;
+  }
+  body .wrapBody .section3 .sec3Box2 .sec3PhotoBox4 .sec3Ment {
+    font-size: 3rem;
+  }
+  body .wrapBody .section3 .sec3Box2 .sec3PhotoBox5 .sec3Ment {
+    font-size: 3rem;
+  }
+  #sec4Portfolio1, #sec4Portfolio2, #sec4Portfolio3, #sec4Portfolio4, #sec4Portfolio5, #sec4Portfolio6, #sec4Portfolio7, #sec4Portfolio8, #sec4Portfolio9, #sec4Portfolio10, #sec4Portfolio11 {
+    width: 48%;
+    height: 95%;
+  }
+  #sec4PortDesc1, #sec4PortDesc2, #sec4PortDesc3, #sec4PortDesc4, #sec4PortDesc5, #sec4PortDesc6, #sec4PortDesc7, #sec4PortDesc8, #sec4PortDesc9, #sec4PortDesc10, #sec4PortDesc11 {
+    width: 48%;
+    height: 95%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  html, body {
+    font-size: 15px;
+  }
+  #section2 {
+    height: 1100px;
+  }
+  #sec2Section {
+    width: 100%;
+    min-height: 750px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #sec2Text {
+    max-width: 100%;
+    height: 50%;
+  }
+  #sec3Box1 {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    min-height: 1160px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+  }
+  #sec3Box2 {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  #sec3PhotoBox2, #sec3PhotoBox3, #sec3PhotoBox4, #sec3PhotoBox5 {
+    margin-bottom: 30px;
+  }
+  #sec3PhotoBox3 {
+    width: 350px;
+    height: 450px;
+  }
+  #sec3PhotoBox4 {
+    width: 350px;
+    height: 450px;
+  }
+  #sec3PhotoBox5 {
+    width: 350px;
+    height: 450px;
+  }
+  #sec4Article {
+    height: 98%;
+  }
+  #sec4PortBox1, #sec4PortBox3, #sec4PortBox5, #sec4PortBox7, #sec4PortBox9, #sec4PortBox11 {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    min-height: 670px;
+  }
+  #sec4PortBox2, #sec4PortBox4, #sec4PortBox6, #sec4PortBox8, #sec4PortBox10 {
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    min-height: 670px;
+  }
+  #sec4Portfolio1, #sec4Portfolio2, #sec4Portfolio3, #sec4Portfolio4, #sec4Portfolio5, #sec4Portfolio6, #sec4Portfolio7, #sec4Portfolio8, #sec4Portfolio9, #sec4Portfolio10, #sec4Portfolio11 {
+    width: 95%;
+    height: 50%;
+  }
+  #sec4PortDesc1, #sec4PortDesc2, #sec4PortDesc3, #sec4PortDesc4, #sec4PortDesc5, #sec4PortDesc6, #sec4PortDesc7, #sec4PortDesc8, #sec4PortDesc9, #sec4PortDesc10, #sec4PortDesc11 {
+    width: 95%;
+    height: 45%;
+  }
+  [class^='sec4Desc'] {
+    padding-bottom: 9px;
+  }
+  #footerMain {
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+    height: 950px;
+  }
+  #fMainFormBox {
+    width: 90%;
+    height: 60%;
+  }
+  #fMainPhotoBox {
+    width: 90%;
+    height: 40%;
+  }
+  #fMainPhoto {
+    width: 300px;
+    height: 300px;
+  }
+  #fMainForm {
+    height: 98%;
+  }
+  body .wrapBody .footerWrap .footerEnd {
+    margin-top: 30px;
+  }
+}
+
+/* ##Device = Low Resolution Tablets, Mobiles (Landscape) */
+@media (min-width: 481px) and (max-width: 767px) {
+  html, body {
+    font-size: 14px;
+  }
+  #asideWrap {
+    display: none;
+  }
+  #section1 {
+    margin: 0px;
+  }
+  #sec1Photo {
+    background-attachment: scroll;
+  }
+  #sec1Text {
+    left: 2%;
+  }
+  @-webkit-keyframes textSlide {
+    from {
+      left: -10%;
+      opacity: 0;
+    }
+    to {
+      left: 2%;
+      opacity: 1;
+    }
+  }
+  @keyframes textSlide {
+    from {
+      left: -10%;
+      opacity: 0;
+    }
+    to {
+      left: 2%;
+      opacity: 1;
+    }
+  }
+  @-webkit-keyframes textDisappear {
+    from {
+      left: 2%;
+      opacity: 1;
+    }
+    to {
+      left: -10%;
+      opacity: 0;
+    }
+  }
+  @keyframes textDisappear {
+    from {
+      left: 2%;
+      opacity: 1;
+    }
+    to {
+      left: -10%;
+      opacity: 0;
+    }
+  }
+  #sec1Span {
+    font-size: 45px;
+  }
+  #section2 {
+    margin: 0;
+    height: 1150px;
+  }
+  #sec2Section {
+    width: 100%;
+    min-height: 750px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #sec2Text {
+    max-width: 100%;
+    height: 50%;
+  }
+  #sec2Name {
+    font-size: 45px;
+  }
+  #section3 {
+    margin: 0;
+    min-height: 3000px;
+  }
+  #sec3Box1 {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    min-height: 1130px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #sec3Box2 {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-top: 30px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  #sec3PhotoBox1, #sec3PhotoBox2, #sec3PhotoBox3, #sec3PhotoBox4, #sec3PhotoBox5 {
+    margin-top: 30px;
+  }
+  #sec3PhotoBox3 {
+    width: 350px;
+    height: 450px;
+  }
+  #sec3PhotoBox4 {
+    width: 350px;
+    height: 450px;
+  }
+  #sec3PhotoBox5 {
+    width: 350px;
+    height: 450px;
+  }
+  #sec4Article {
+    width: 90%;
+    height: 98%;
+  }
+  #sec4Name {
+    font-size: 45px;
+  }
+  #sec4PortBox1, #sec4PortBox3, #sec4PortBox5, #sec4PortBox7, #sec4PortBox9, #sec4PortBox11 {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    min-height: 620px;
+    width: 100%;
+  }
+  #sec4PortBox2, #sec4PortBox4, #sec4PortBox6, #sec4PortBox8, #sec4PortBox10 {
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    min-height: 620px;
+    width: 100%;
+  }
+  #sec4Portfolio1, #sec4Portfolio2, #sec4Portfolio3, #sec4Portfolio4, #sec4Portfolio5, #sec4Portfolio6, #sec4Portfolio7, #sec4Portfolio8, #sec4Portfolio9, #sec4Portfolio10, #sec4Portfolio11 {
+    width: 95%;
+    height: 35%;
+  }
+  #sec4PortDesc1, #sec4PortDesc2, #sec4PortDesc3, #sec4PortDesc4, #sec4PortDesc5, #sec4PortDesc6, #sec4PortDesc7, #sec4PortDesc8, #sec4PortDesc9, #sec4PortDesc10, #sec4PortDesc11 {
+    width: 95%;
+    height: 55%;
+  }
+  [class^='sec4Desc'] {
+    padding-bottom: 9px;
+  }
+  #footerTitle {
+    margin: 0;
+    height: 150px;
+  }
+  #footerName {
+    font-size: 45px;
+  }
+  #footerMain {
+    margin: 0;
+    height: 600px;
+  }
+  #fMainFormBox {
+    width: 100%;
+    height: 95%;
+  }
+  #fMainForm {
+    max-width: 350px;
+    height: 80%;
+  }
+  #fMainPhotoBox {
+    display: none;
+  }
+}
+
+/* ##Device = Most of the Smartphones Mobiles (Portrait) */
+@media (max-width: 480px) {
+  html, body {
+    font-size: 13px;
+  }
+  #asideWrap {
+    display: none;
+  }
+  #section1 {
+    margin: 0;
+  }
+  #sec1Text {
+    left: 2%;
+  }
+  @-webkit-keyframes textSlide {
+    from {
+      left: -10%;
+      opacity: 0;
+    }
+    to {
+      left: 2%;
+      opacity: 1;
+    }
+  }
+  @keyframes textSlide {
+    from {
+      left: -10%;
+      opacity: 0;
+    }
+    to {
+      left: 2%;
+      opacity: 1;
+    }
+  }
+  @-webkit-keyframes textDisappear {
+    from {
+      left: 2%;
+      opacity: 1;
+    }
+    to {
+      left: -10%;
+      opacity: 0;
+    }
+  }
+  @keyframes textDisappear {
+    from {
+      left: 2%;
+      opacity: 1;
+    }
+    to {
+      left: -10%;
+      opacity: 0;
+    }
+  }
+  #sec1Span {
+    font-size: 45px;
+  }
+  #sec1Photo {
+    background-position: 50% 50%;
+    background-attachment: scroll;
+  }
+  #section2 {
+    margin: 0;
+    min-height: 1180px;
+  }
+  #sec2Section {
+    width: 100%;
+    min-height: 750px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #sec2Text {
+    max-width: 100%;
+    height: 50%;
+  }
+  #sec2Name {
+    font-size: 35px;
+  }
+  #section3 {
+    margin: 0;
+    min-height: 3000px;
+  }
+  #sec3Box1 {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    min-height: 1130px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #sec3Box2 {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-top: 30px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #sec3PhotoBox1, #sec3PhotoBox2, #sec3PhotoBox3, #sec3PhotoBox4, #sec3PhotoBox5 {
+    margin-top: 20px;
+  }
+  #sec3PhotoBox3 {
+    width: 350px;
+    height: 450px;
+  }
+  #sec3PhotoBox4 {
+    width: 350px;
+    height: 450px;
+  }
+  #sec3PhotoBox5 {
+    width: 350px;
+    height: 450px;
+  }
+  body .wrapBody .section3 .sec3Box1 .sec3PhotoBox0 .sec3Ment {
+    font-size: 3rem;
+  }
+  body .wrapBody .section3 .sec3Box1 .sec3PhotoBox1 .sec3Ment {
+    font-size: 3rem;
+  }
+  body .wrapBody .section3 .sec3Box2 .sec3PhotoBox2 .sec3Ment {
+    font-size: 3rem;
+  }
+  body .wrapBody .section3 .sec3Box2 .sec3PhotoBox3 .sec3Ment {
+    font-size: 3rem;
+  }
+  body .wrapBody .section3 .sec3Box2 .sec3PhotoBox4 .sec3Ment {
+    font-size: 3rem;
+  }
+  body .wrapBody .section3 .sec3Box2 .sec3PhotoBox5 .sec3Ment {
+    font-size: 3rem;
+  }
+  #sec4Name {
+    font-size: 35px;
+  }
+  #sec4Article {
+    width: 100%;
+    height: 98%;
+  }
+  #sec4PortBox1, #sec4PortBox3, #sec4PortBox5, #sec4PortBox7, #sec4PortBox9, #sec4PortBox11 {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    min-height: 650px;
+    width: 90%;
+  }
+  #sec4PortBox3 {
+    min-height: 720px;
+  }
+  #sec4PortBox2, #sec4PortBox4, #sec4PortBox6, #sec4PortBox8, #sec4PortBox10 {
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    min-height: 650px;
+    width: 90%;
+  }
+  #sec4Portfolio1, #sec4Portfolio2, #sec4Portfolio3, #sec4Portfolio4, #sec4Portfolio5, #sec4Portfolio6, #sec4Portfolio7, #sec4Portfolio8, #sec4Portfolio9, #sec4Portfolio10, #sec4Portfolio11 {
+    width: 95%;
+    height: 40%;
+  }
+  #sec4PortDesc1, #sec4PortDesc2, #sec4PortDesc3, #sec4PortDesc4, #sec4PortDesc5, #sec4PortDesc6, #sec4PortDesc7, #sec4PortDesc8, #sec4PortDesc9, #sec4PortDesc10, #sec4PortDesc11 {
+    width: 95%;
+    height: 55%;
+  }
+  [class^='sec4Desc'] {
+    padding-bottom: 9px;
+  }
+  body .wrapBody .section4 .sec4Article .sec4Box .sec4Names {
+    font-size: 2.5rem;
+  }
+  #footerTitle {
+    margin: 0;
+    height: 230px;
+  }
+  #footerName {
+    font-size: 35px;
+  }
+  #footerMain {
+    margin: 0;
+    height: 500px;
+  }
+  #fMainFormBox {
+    width: 100%;
+    height: 100%;
+  }
+  #fMainForm {
+    min-width: 100%;
+    height: 90%;
+  }
+  #fMainPhotoBox {
+    display: none;
+  }
+}
+/*# sourceMappingURL=mediaquery.css.map */
